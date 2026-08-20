@@ -1,0 +1,10 @@
+{
+    "identifier": "nz.eiara.caddy",
+    "name": "Caddy",
+    "organization": "Eiara Limited",
+    "description": "Syntax highlighting for the Caddy web server configuration files.",
+    "version": "1.0",
+    "categories": ["languages"],
+    "license": "Apache 2.0",
+    "min_runtime": "14"
+}

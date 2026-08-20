@@ -1,0 +1,3 @@
+[submodule "tree-sitter-caddyfile"]
+	path = tree-sitter-caddyfile
+	url = https://github.com/caddyserver/tree-sitter-caddyfile.git

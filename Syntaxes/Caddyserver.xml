@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="caddyserver">
+    <meta>
+        <name>caddyserver</name>
+        <type>structured</type>
+        <preferred-file-extension>caddy</preferred-file-extension>
+    </meta>
+    
+    <detectors>
+        <extension priority="1.0">caddy</extension>
+        <extension priority="1.0">caddyfile</extension>
+        <filename priority="1.0">Caddyfile</filename>
+    </detectors>
+    
+    <indentation>
+        <increase>
+            <expression>(\{\s*$)</expression>
+        </increase>
+        <decrease>
+            <expression>(\}\s*$)</expression>
+        </decrease>
+    </indentation>
+    
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+    </comments>
+    
+    <autoclosing-pairs>
+        <pair open="{" close="}" />
+        <pair open="&quot;" close="&quot;" notIn="string,regex" />
+    </autoclosing-pairs>
+    <surrounding-pairs>
+        <pair open="{" close="}" />
+        <pair open="&quot;" close="&quot;" />
+    </surrounding-pairs>
+    
+    <injection>
+        <expression>^(caddy)$</expression>
+    </injection>
+    
+    <tree-sitter language="caddyfile">
+        <highlights path="highlights.scm" />
+        <symbols path="symbols.scm" />
+        <folds path="folds.scm" />
+        <injections path="injections.scm" />
+        
+    </tree-sitter>
+</syntax>

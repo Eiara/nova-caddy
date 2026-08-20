@@ -1,0 +1,12 @@
+# Add the necessary environment variables to build against Nova
+# Per https://docs.nova.app/syntax-reference/tree-sitter/#compiling-a-parser
+[env]
+LDFLAGS="-arch arm64 -arch x86_64 -F/Applications/Nova.app/Contents/Frameworks -framework SyntaxKit -rpath @loader_path/../Frameworks"
+
+[tasks.build]
+dir = "{{ config_root }}/tree-sitter-caddyfile"
+run = '''
+make clean
+make all
+mv ./libtree-sitter-caddyfile.dylib {{ config_root }}/Syntaxes/libtree-sitter-caddyfile.dylib
+'''
