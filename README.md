@@ -5,4 +5,10 @@
 
 ## Language Support
 
-Caddy uses the upstream tree-sitter-caddyfile repository, with customized highlight naming to better match Nova's defaults.
+Caddy supports symbolization and syntax highlighting for Caddy configuration files.
+
+## About
+
+This extension is licensed under Apache 2.0 as it vendors the official tree-sitter implementation.
+
+"Caddy", and the Caddy icon, are trademarks of Stack Holdings GmbH.
