@@ -1,6 +1,8 @@
 {
     "identifier": "nz.eiara.caddy",
     "name": "Caddy",
+    "repository": "https://github.com/Eiara/Caddy.novaextension",
+    "bugs": "https://github.com/Eiara/Caddy.novaextension/issues",
     "organization": "Eiara Limited",
     "description": "Syntax highlighting for the Caddy web server configuration files.",
     "version": "1.0",
