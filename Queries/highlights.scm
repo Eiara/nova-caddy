@@ -16,7 +16,7 @@
   (snippet_name)
   (named_route_identifier)
   (site_address)
-] @definition.type
+] @identifier.type
 
 ;; Primary directives
 [

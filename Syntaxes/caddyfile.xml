@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<syntax name="caddyserver">
+<syntax name="caddyfile">
     <meta>
-        <name>caddyserver</name>
+        <name>Caddy</name>
         <type>structured</type>
         <preferred-file-extension>caddy</preferred-file-extension>
     </meta>
@@ -29,15 +29,17 @@
     
     <autoclosing-pairs>
         <pair open="{" close="}" />
+        <pair open="(" close=")" />
         <pair open="&quot;" close="&quot;" notIn="string,regex" />
     </autoclosing-pairs>
     <surrounding-pairs>
         <pair open="{" close="}" />
+        <pair open="(" close=")" />
         <pair open="&quot;" close="&quot;" />
     </surrounding-pairs>
     
     <injection>
-        <expression>^(caddy)$</expression>
+        <expression>^(caddy|caddyfile)$</expression>
     </injection>
     
     <tree-sitter language="caddyfile">
@@ -45,6 +47,5 @@
         <symbols path="symbols.scm" />
         <folds path="folds.scm" />
         <injections path="injections.scm" />
-        
     </tree-sitter>
 </syntax>
