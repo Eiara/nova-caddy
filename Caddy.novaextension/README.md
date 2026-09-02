@@ -2,9 +2,9 @@
 
 Requires Nova version 14 and above.
 
-![Screenshot of the editor with highlighting](https://raw.githubusercontent.com/Eiara/Caddy.novaextension/refs/heads/main/Images/screenshot-editor.png)
+![Screenshot of the editor with highlighting](https://raw.githubusercontent.com/Eiara/nova-caddy/refs/heads/main/Caddy.novaextension/Images/screenshot-editor.png)
 
-![Screenshot of the symbol tree](https://raw.githubusercontent.com/Eiara/Caddy.novaextension/refs/heads/main/Images/screenshot-symbols.png)
+![Screenshot of the symbol tree](https://raw.githubusercontent.com/Eiara/nova-caddy/refs/heads/main/Caddy.novaextension/Images/screenshot-symbols.png)
 
 ## Language Support
 
