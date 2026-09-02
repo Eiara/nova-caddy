@@ -1,14 +1,14 @@
 **Caddy** provides syntax highlighting and autocompletion for **the [Caddy](https://caddyserver.com) webserver** configuration files.
 
-Requires Nova version 14 and above.
+Requires Nova version **14** and above.
+
+## Language Support
+
+Caddy supports symbolization and syntax highlighting for Caddy configuration files, using tree-sitter.
 
 ![Screenshot of the editor with highlighting](https://raw.githubusercontent.com/Eiara/nova-caddy/refs/heads/main/Caddy.novaextension/Images/screenshot-editor.png)
 
 ![Screenshot of the symbol tree](https://raw.githubusercontent.com/Eiara/nova-caddy/refs/heads/main/Caddy.novaextension/Images/screenshot-symbols.png)
-
-## Language Support
-
-Caddy supports symbolization and syntax highlighting for Caddy configuration files.
 
 ## About
 
