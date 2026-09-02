@@ -1,11 +1,11 @@
 {
     "identifier": "nz.eiara.caddy",
     "name": "Caddy",
-    "repository": "https://github.com/Eiara/Caddy.novaextension",
-    "bugs": "https://github.com/Eiara/Caddy.novaextension/issues",
+    "repository": "https://github.com/Eiara/nova-caddy",
+    "bugs": "https://github.com/Eiara/nova-caddy/issues",
     "organization": "Eiara Limited",
     "description": "Syntax highlighting for the Caddy web server configuration files.",
-    "version": "1.0",
+    "version": "1.0.1",
     "categories": ["languages"],
     "license": "Apache 2.0",
     "min_runtime": "14"
