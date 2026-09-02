@@ -1,17 +1,9 @@
 ; Globals
-; Don't get parsed into a sub-tree because I cannot
-; figure out how to create a "globals" section in the symbol tree here.
-; (global_options
-;   (directive
-;     name: (directive_name) @_dir @name
-;     [
-;       (placeholder)
-;       (argument)
-;     ]? @name
-;   ) @subtree
-;   (#set! role constant)
-;   (#prefix! @name "global:: ")
-; )
+(
+  (global_options "{" @name)
+  (#set! role class)
+  (#replace! @name ".*" "globals")
+) @subtree
 
 ; Snippets are classes that get imported
 ((snippet_definition

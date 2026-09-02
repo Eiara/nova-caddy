@@ -1,3 +1,1 @@
-## Version 1.0
-
-Initial release
+Caddy.novaextension/CHANGELOG.md
